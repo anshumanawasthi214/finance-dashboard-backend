@@ -1,10 +1,11 @@
 package com.dashboard.finance.dto;
 
+import java.util.Set;
+
 import com.dashboard.finance.model.enums.RoleName;
+
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
-
-import java.util.Set;
 
 public class CreateUserRequest {
 
@@ -42,7 +43,7 @@ public class CreateUserRequest {
     }
 
     public void setPassword(String password) {
-        this.password = password;
+    	this.password = password;	
     }
 
     public Set<RoleName> getRoles() {
