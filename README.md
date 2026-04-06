@@ -14,6 +14,7 @@ This project demonstrates backend development concepts such as:
 
 The system uses **H2 database by default**, with optional support for **MySQL**.
 
+Swagger API Documentation Link: https://finance-dashboard-backend-6piv.onrender.com/swagger-ui/index.html
 ---
 
 # Technologies Used
@@ -23,7 +24,7 @@ The system uses **H2 database by default**, with optional support for **MySQL**.
 * Spring Security
 * JWT Authentication
 * Spring Data JPA
-* H2 Database (Default)
+* H2 Database (Data resets after server restart)
 * MySQL (Optional Support)
 * Maven
 * Swagger (OpenAPI Documentation)
